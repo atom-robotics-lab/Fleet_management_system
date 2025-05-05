@@ -1,49 +1,49 @@
-- ign_topic_name: "/cmd_vel"
+- gz_topic_name: "/cmd_vel"
   ros_topic_name: "/cmd_vel"
   ros_type_name: "geometry_msgs/msg/Twist"
-  ign_type_name: "ignition.msgs.Twist"
-  direction: ROS_TO_IGN
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
 
-- ign_topic_name: "/odom"
+- gz_topic_name: "/odom"
   ros_topic_name: "/odom"
   ros_type_name: "nav_msgs/msg/Odometry"
-  ign_type_name: "ignition.msgs.Odometry"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
 
-- ign_topic_name: "/joint_states"
+- gz_topic_name: "/joint_states"
   ros_topic_name: "/joint_states"
   ros_type_name: "sensor_msgs/msg/JointState"
-  ign_type_name: "ignition.msgs.Model"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.Model"
+  direction: GZ_TO_ROS
 
-- ign_topic_name: "/laser/scan"
-  ros_topic_name: "/laser/scan"
+- gz_topic_name: "scan"
+  ros_topic_name: "scan"
   ros_type_name: "sensor_msgs/msg/LaserScan"
-  ign_type_name: "ignition.msgs.LaserScan"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
 
-# - ign_topic_name: "/laser/scan/points"
+# - gz_topic_name: "/laser/scan/points"
 #   ros_topic_name: "/laser/scan/points"
 #   ros_type_name: "sensor_msgs/msg/PointCloud2"
-#   ign_type_name: "ignition.msgs.PointCloudPacked"
-#   direction: IGN_TO_ROS
+#   gz_type_name: "gz.msgs.PointCloudPacked"
+#   direction: GZ_TO_ROS
 
-- ign_topic_name: "/tf"
+- gz_topic_name: "/tf"
   ros_topic_name: "/tf"
   ros_type_name: "tf2_msgs/msg/TFMessage"
-  ign_type_name: "ignition.msgs.Pose_V"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
 
-- ign_topic_name: "/clock"
+- gz_topic_name: "/clock"
   ros_topic_name: "/clock"
   ros_type_name: "rosgraph_msgs/msg/Clock"
-  ign_type_name: "ignition.msgs.Clock"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
 
-- ign_topic_name: "/imu"
+- gz_topic_name: "/imu"
   ros_topic_name: "/imu"
   ros_type_name: "sensor_msgs/msg/Imu"
-  ign_type_name: "ignition.msgs.IMU"
-  direction: IGN_TO_ROS
+  gz_type_name: "gz.msgs.IMU"
+  direction: GZ_TO_ROS
 
 
