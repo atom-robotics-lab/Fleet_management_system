@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dream_hell/learning_rmf_ws/src/build/mr_robot_gazebo
+-- Install configuration: ""
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/launch
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/launch/robot.launch.py
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/worlds
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/worlds/world.sdf
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/config
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/config/ekf.yaml
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/config/params.yaml
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/config/bridge.yaml
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/mr_robot_gazebo
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/mr_robot_gazebo
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/environment/path.sh
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/environment/path.dsv
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/local_setup.bash
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/local_setup.sh
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/local_setup.zsh
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/local_setup.dsv
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/package.dsv
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/ament_index/resource_index/packages/mr_robot_gazebo
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/cmake/mr_robot_gazeboConfig.cmake
+-- Up-to-date: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/cmake/mr_robot_gazeboConfig-version.cmake
+-- Installing: /home/dream_hell/learning_rmf_ws/src/install/mr_robot_gazebo/share/mr_robot_gazebo/package.xml

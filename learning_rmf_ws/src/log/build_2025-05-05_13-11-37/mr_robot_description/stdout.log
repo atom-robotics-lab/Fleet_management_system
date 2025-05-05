@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/mr_robot_description/mr_robot_description.egg-info
+writing ../build/mr_robot_description/mr_robot_description.egg-info/PKG-INFO
+writing dependency_links to ../build/mr_robot_description/mr_robot_description.egg-info/dependency_links.txt
+writing requirements to ../build/mr_robot_description/mr_robot_description.egg-info/requires.txt
+writing top-level names to ../build/mr_robot_description/mr_robot_description.egg-info/top_level.txt
+writing manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+reading manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+writing manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description
+copying mr_robot_description/__init__.py -> /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description
+running install
+running install_lib
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description
+copying /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description/__init__.py -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description
+byte-compiling /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/ament_index/resource_index/packages
+copying resource/mr_robot_description -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/launch
+copying launch/display.launch.py -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/launch
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+copying urdf/mr_robot.xacro -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+copying urdf/materials.xacro -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+copying urdf/mr_robot.gazebo -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+copying urdf/mr_robot.trans -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/gps_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/left_wheel_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/right_wheel__1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/Lidar_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/imu_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+copying meshes/base_link.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/config
+copying config/display.rviz -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/config
+running install_egg_info
+Copying ../build/mr_robot_description/mr_robot_description.egg-info to /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/install.log'

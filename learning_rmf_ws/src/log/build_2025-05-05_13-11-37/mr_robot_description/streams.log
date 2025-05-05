@@ -1,0 +1,46 @@
+[1.090s] Invoking command in '/home/dream_hell/learning_rmf_ws/src/mr_robot_description': PYTHONPATH=/home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mr_robot_description build --build-base /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build install --record /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/install.log --single-version-externally-managed install_data
+[1.288s] /home/dream_hell/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.288s]   warnings.warn(msg)
+[1.443s] running egg_info
+[1.468s] creating ../build/mr_robot_description/mr_robot_description.egg-info
+[1.468s] writing ../build/mr_robot_description/mr_robot_description.egg-info/PKG-INFO
+[1.468s] writing dependency_links to ../build/mr_robot_description/mr_robot_description.egg-info/dependency_links.txt
+[1.468s] writing requirements to ../build/mr_robot_description/mr_robot_description.egg-info/requires.txt
+[1.469s] writing top-level names to ../build/mr_robot_description/mr_robot_description.egg-info/top_level.txt
+[1.469s] writing manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+[1.521s] reading manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+[1.523s] writing manifest file '../build/mr_robot_description/mr_robot_description.egg-info/SOURCES.txt'
+[1.523s] running build
+[1.523s] running build_py
+[1.523s] creating /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description
+[1.524s] copying mr_robot_description/__init__.py -> /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description
+[1.524s] running install
+[1.529s] running install_lib
+[1.555s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description
+[1.555s] copying /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build/lib/mr_robot_description/__init__.py -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description
+[1.555s] byte-compiling /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description/__init__.py to __init__.cpython-310.pyc
+[1.556s] running install_data
+[1.556s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/ament_index/resource_index/packages
+[1.556s] copying resource/mr_robot_description -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/ament_index/resource_index/packages
+[1.557s] copying package.xml -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description
+[1.557s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/launch
+[1.557s] copying launch/display.launch.py -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/launch
+[1.557s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+[1.558s] copying urdf/mr_robot.xacro -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+[1.558s] copying urdf/materials.xacro -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+[1.558s] copying urdf/mr_robot.gazebo -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+[1.558s] copying urdf/mr_robot.trans -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/urdf
+[1.558s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.558s] copying meshes/gps_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.559s] copying meshes/left_wheel_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.561s] copying meshes/right_wheel__1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.563s] copying meshes/Lidar_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.563s] copying meshes/imu_1.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.564s] copying meshes/base_link.stl -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/meshes
+[1.572s] creating /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/config
+[1.573s] copying config/display.rviz -> /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/share/mr_robot_description/config
+[1.573s] running install_egg_info
+[1.600s] Copying ../build/mr_robot_description/mr_robot_description.egg-info to /home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages/mr_robot_description-0.0.0-py3.10.egg-info
+[1.601s] running install_scripts
+[1.810s] writing list of installed files to '/home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/install.log'
+[1.859s] Invoked command in '/home/dream_hell/learning_rmf_ws/src/mr_robot_description' returned '0': PYTHONPATH=/home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dream_hell/learning_rmf_ws/src/install/mr_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mr_robot_description build --build-base /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/build install --record /home/dream_hell/learning_rmf_ws/src/build/mr_robot_description/install.log --single-version-externally-managed install_data
