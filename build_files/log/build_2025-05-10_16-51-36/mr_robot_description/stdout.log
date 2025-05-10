@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating mr_robot_description.egg-info
+writing mr_robot_description.egg-info/PKG-INFO
+writing dependency_links to mr_robot_description.egg-info/dependency_links.txt
+writing entry points to mr_robot_description.egg-info/entry_points.txt
+writing requirements to mr_robot_description.egg-info/requires.txt
+writing top-level names to mr_robot_description.egg-info/top_level.txt
+writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+reading manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages/mr-robot-description.egg-link (link to .)
+
+Installed /workspaces/rmf_ws/build/mr_robot_description
+running symlink_data
+creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index
+creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index
+creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/resource/mr_robot_description -> /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/package.xml -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description
+creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/launch/display.launch.py -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch
+creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.trans -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/materials.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.gazebo -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/left_wheel_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/Lidar_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/imu_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/base_link.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/right_wheel__1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/gps_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config
+symbolically linking /workspaces/rmf_ws/build/mr_robot_description/config/display.rviz -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config

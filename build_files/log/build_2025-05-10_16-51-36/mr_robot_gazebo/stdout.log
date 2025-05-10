@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating mr_robot_gazebo.egg-info
+writing mr_robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to mr_robot_gazebo.egg-info/dependency_links.txt
+writing entry points to mr_robot_gazebo.egg-info/entry_points.txt
+writing requirements to mr_robot_gazebo.egg-info/requires.txt
+writing top-level names to mr_robot_gazebo.egg-info/top_level.txt
+writing manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/rmf_ws/install/mr_robot_gazebo/lib/python3.10/site-packages/mr-robot-gazebo.egg-link (link to .)
+
+Installed /workspaces/rmf_ws/build/mr_robot_gazebo
+running symlink_data
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/resource/mr_robot_gazebo -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/package.xml -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/launch
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/launch/gazebo.launch.py -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/launch
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/config
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/config/bridge.yaml -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/config
+creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/world/sample.sdf -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world
+symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/world/world.sdf -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world

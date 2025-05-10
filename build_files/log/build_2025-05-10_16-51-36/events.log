@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (mr_robot_description) JobQueued: {'identifier': 'mr_robot_description', 'dependencies': OrderedDict()}
+[0.000261] (mr_robot_gazebo) JobQueued: {'identifier': 'mr_robot_gazebo', 'dependencies': OrderedDict([('mr_robot_description', '/workspaces/rmf_ws/install/mr_robot_description')])}
+[0.000281] (robot_nav) JobQueued: {'identifier': 'robot_nav', 'dependencies': OrderedDict([('mr_robot_description', '/workspaces/rmf_ws/install/mr_robot_description'), ('mr_robot_gazebo', '/workspaces/rmf_ws/install/mr_robot_gazebo')])}
+[0.000530] (mr_robot_description) JobStarted: {'identifier': 'mr_robot_description'}
+[0.099766] (-) TimerEvent: {}
+[0.200000] (-) TimerEvent: {}
+[0.300243] (-) TimerEvent: {}
+[0.400498] (-) TimerEvent: {}
+[0.500736] (-) TimerEvent: {}
+[0.601075] (mr_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/rmf_ws/build/mr_robot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/rmf_ws/build/mr_robot_description', 'env': {'MESA_LOADER_DRIVER_OVERRIDE': 'iris', 'HOSTNAME': 'vansh-Lenovo', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'CYCLONEDDS_URI': '/ddsconfig.xml', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/workspaces/rmf_ws/build/mr_robot_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/rmf_ws/build/mr_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[0.601711] (-) TimerEvent: {}
+[0.701914] (-) TimerEvent: {}
+[0.783659] (mr_robot_description) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.783802] (mr_robot_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.802028] (-) TimerEvent: {}
+[0.806867] (mr_robot_description) StdoutLine: {'line': b'running develop\n'}
+[0.902116] (-) TimerEvent: {}
+[0.936748] (mr_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.936936] (mr_robot_description) StdoutLine: {'line': b'creating mr_robot_description.egg-info\n'}
+[0.936983] (mr_robot_description) StdoutLine: {'line': b'writing mr_robot_description.egg-info/PKG-INFO\n'}
+[0.937119] (mr_robot_description) StdoutLine: {'line': b'writing dependency_links to mr_robot_description.egg-info/dependency_links.txt\n'}
+[0.937213] (mr_robot_description) StdoutLine: {'line': b'writing entry points to mr_robot_description.egg-info/entry_points.txt\n'}
+[0.937259] (mr_robot_description) StdoutLine: {'line': b'writing requirements to mr_robot_description.egg-info/requires.txt\n'}
+[0.937300] (mr_robot_description) StdoutLine: {'line': b'writing top-level names to mr_robot_description.egg-info/top_level.txt\n'}
+[0.937360] (mr_robot_description) StdoutLine: {'line': b"writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'\n"}
+[0.938814] (mr_robot_description) StdoutLine: {'line': b"reading manifest file 'mr_robot_description.egg-info/SOURCES.txt'\n"}
+[0.939418] (mr_robot_description) StdoutLine: {'line': b"writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'\n"}
+[0.942396] (mr_robot_description) StdoutLine: {'line': b'running build_ext\n'}
+[0.942598] (mr_robot_description) StdoutLine: {'line': b'Creating /workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages/mr-robot-description.egg-link (link to .)\n'}
+[0.943397] (mr_robot_description) StdoutLine: {'line': b'\n'}
+[0.943486] (mr_robot_description) StdoutLine: {'line': b'Installed /workspaces/rmf_ws/build/mr_robot_description\n'}
+[0.943532] (mr_robot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[0.943572] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index\n'}
+[0.943611] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index\n'}
+[0.943649] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages\n'}
+[0.943688] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/resource/mr_robot_description -> /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages\n'}
+[0.943742] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/package.xml -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description\n'}
+[0.943826] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch\n'}
+[0.943878] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/launch/display.launch.py -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch\n'}
+[0.943919] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf\n'}
+[0.943957] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.trans -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf\n'}
+[0.943996] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf\n'}
+[0.944035] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/materials.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf\n'}
+[0.944072] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.gazebo -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf\n'}
+[0.944111] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944150] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/left_wheel_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944202] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/Lidar_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944270] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/imu_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944314] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/base_link.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944351] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/right_wheel__1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944392] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/gps_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes\n'}
+[0.944429] (mr_robot_description) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config\n'}
+[0.944465] (mr_robot_description) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_description/config/display.rviz -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config\n'}
+[0.972849] (mr_robot_description) CommandEnded: {'returncode': 0}
+[0.983822] (mr_robot_description) JobEnded: {'identifier': 'mr_robot_description', 'rc': 0}
+[0.984253] (mr_robot_gazebo) JobStarted: {'identifier': 'mr_robot_gazebo'}
+[1.002246] (-) TimerEvent: {}
+[1.102573] (-) TimerEvent: {}
+[1.202892] (-) TimerEvent: {}
+[1.303206] (-) TimerEvent: {}
+[1.403474] (-) TimerEvent: {}
+[1.503728] (-) TimerEvent: {}
+[1.513030] (mr_robot_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/rmf_ws/build/mr_robot_gazebo/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/rmf_ws/build/mr_robot_gazebo', 'env': {'MESA_LOADER_DRIVER_OVERRIDE': 'iris', 'HOSTNAME': 'vansh-Lenovo', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'CYCLONEDDS_URI': '/ddsconfig.xml', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/workspaces/rmf_ws/install/mr_robot_description:/opt/ros/humble', 'PWD': '/workspaces/rmf_ws/build/mr_robot_gazebo', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/rmf_ws/build/mr_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/rmf_ws/install/mr_robot_gazebo/lib/python3.10/site-packages:/workspaces/rmf_ws/build/mr_robot_description:/workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[1.603819] (-) TimerEvent: {}
+[1.704123] (-) TimerEvent: {}
+[1.716235] (mr_robot_gazebo) StdoutLine: {'line': b'running develop\n'}
+[1.804221] (-) TimerEvent: {}
+[1.843070] (mr_robot_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[1.843252] (mr_robot_gazebo) StdoutLine: {'line': b'creating mr_robot_gazebo.egg-info\n'}
+[1.843405] (mr_robot_gazebo) StdoutLine: {'line': b'writing mr_robot_gazebo.egg-info/PKG-INFO\n'}
+[1.843677] (mr_robot_gazebo) StdoutLine: {'line': b'writing dependency_links to mr_robot_gazebo.egg-info/dependency_links.txt\n'}
+[1.843804] (mr_robot_gazebo) StdoutLine: {'line': b'writing entry points to mr_robot_gazebo.egg-info/entry_points.txt\n'}
+[1.843918] (mr_robot_gazebo) StdoutLine: {'line': b'writing requirements to mr_robot_gazebo.egg-info/requires.txt\n'}
+[1.843992] (mr_robot_gazebo) StdoutLine: {'line': b'writing top-level names to mr_robot_gazebo.egg-info/top_level.txt\n'}
+[1.844320] (mr_robot_gazebo) StdoutLine: {'line': b"writing manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'\n"}
+[1.846007] (mr_robot_gazebo) StdoutLine: {'line': b"reading manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'\n"}
+[1.846582] (mr_robot_gazebo) StdoutLine: {'line': b"writing manifest file 'mr_robot_gazebo.egg-info/SOURCES.txt'\n"}
+[1.848753] (mr_robot_gazebo) StdoutLine: {'line': b'running build_ext\n'}
+[1.848934] (mr_robot_gazebo) StdoutLine: {'line': b'Creating /workspaces/rmf_ws/install/mr_robot_gazebo/lib/python3.10/site-packages/mr-robot-gazebo.egg-link (link to .)\n'}
+[1.849628] (mr_robot_gazebo) StdoutLine: {'line': b'\n'}
+[1.849775] (mr_robot_gazebo) StdoutLine: {'line': b'Installed /workspaces/rmf_ws/build/mr_robot_gazebo\n'}
+[1.849859] (mr_robot_gazebo) StdoutLine: {'line': b'running symlink_data\n'}
+[1.849971] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index\n'}
+[1.850019] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index\n'}
+[1.850060] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index/packages\n'}
+[1.850099] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/resource/mr_robot_gazebo -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/ament_index/resource_index/packages\n'}
+[1.850139] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/package.xml -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo\n'}
+[1.850178] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/launch\n'}
+[1.850247] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/launch/gazebo.launch.py -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/launch\n'}
+[1.850286] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/config\n'}
+[1.850322] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/config/bridge.yaml -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/config\n'}
+[1.850359] (mr_robot_gazebo) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world\n'}
+[1.850394] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/world/sample.sdf -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world\n'}
+[1.850430] (mr_robot_gazebo) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/mr_robot_gazebo/world/world.sdf -> /workspaces/rmf_ws/install/mr_robot_gazebo/share/mr_robot_gazebo/world\n'}
+[1.877460] (mr_robot_gazebo) CommandEnded: {'returncode': 0}
+[1.883132] (mr_robot_gazebo) JobEnded: {'identifier': 'mr_robot_gazebo', 'rc': 0}
+[1.883549] (robot_nav) JobStarted: {'identifier': 'robot_nav'}
+[1.904315] (-) TimerEvent: {}
+[2.004574] (-) TimerEvent: {}
+[2.104862] (-) TimerEvent: {}
+[2.205062] (-) TimerEvent: {}
+[2.305295] (-) TimerEvent: {}
+[2.396286] (robot_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/rmf_ws/build/robot_nav/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/rmf_ws/build/robot_nav', 'env': {'MESA_LOADER_DRIVER_OVERRIDE': 'iris', 'HOSTNAME': 'vansh-Lenovo', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'CYCLONEDDS_URI': '/ddsconfig.xml', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/workspaces/rmf_ws/install/mr_robot_gazebo:/workspaces/rmf_ws/install/mr_robot_description:/opt/ros/humble', 'PWD': '/workspaces/rmf_ws/build/robot_nav', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/rmf_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/rmf_ws/install/robot_nav/lib/python3.10/site-packages:/workspaces/rmf_ws/build/mr_robot_gazebo:/workspaces/rmf_ws/install/mr_robot_gazebo/lib/python3.10/site-packages:/workspaces/rmf_ws/build/mr_robot_description:/workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[2.405402] (-) TimerEvent: {}
+[2.505652] (-) TimerEvent: {}
+[2.605922] (-) TimerEvent: {}
+[2.615310] (robot_nav) StdoutLine: {'line': b'running develop\n'}
+[2.706030] (-) TimerEvent: {}
+[2.748631] (robot_nav) StdoutLine: {'line': b'running egg_info\n'}
+[2.748772] (robot_nav) StdoutLine: {'line': b'creating robot_nav.egg-info\n'}
+[2.748859] (robot_nav) StdoutLine: {'line': b'writing robot_nav.egg-info/PKG-INFO\n'}
+[2.748988] (robot_nav) StdoutLine: {'line': b'writing dependency_links to robot_nav.egg-info/dependency_links.txt\n'}
+[2.749077] (robot_nav) StdoutLine: {'line': b'writing entry points to robot_nav.egg-info/entry_points.txt\n'}
+[2.749167] (robot_nav) StdoutLine: {'line': b'writing requirements to robot_nav.egg-info/requires.txt\n'}
+[2.749205] (robot_nav) StdoutLine: {'line': b'writing top-level names to robot_nav.egg-info/top_level.txt\n'}
+[2.749315] (robot_nav) StdoutLine: {'line': b"writing manifest file 'robot_nav.egg-info/SOURCES.txt'\n"}
+[2.750813] (robot_nav) StdoutLine: {'line': b"reading manifest file 'robot_nav.egg-info/SOURCES.txt'\n"}
+[2.751444] (robot_nav) StdoutLine: {'line': b"writing manifest file 'robot_nav.egg-info/SOURCES.txt'\n"}
+[2.754276] (robot_nav) StdoutLine: {'line': b'running build_ext\n'}
+[2.754487] (robot_nav) StdoutLine: {'line': b'Creating /workspaces/rmf_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)\n'}
+[2.755663] (robot_nav) StdoutLine: {'line': b'\n'}
+[2.755875] (robot_nav) StdoutLine: {'line': b'Installed /workspaces/rmf_ws/build/robot_nav\n'}
+[2.755950] (robot_nav) StdoutLine: {'line': b'running symlink_data\n'}
+[2.756009] (robot_nav) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/robot_nav/share/ament_index\n'}
+[2.756115] (robot_nav) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/robot_nav/share/ament_index/resource_index\n'}
+[2.756180] (robot_nav) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/robot_nav/share/ament_index/resource_index/packages\n'}
+[2.756271] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/resource/robot_nav -> /workspaces/rmf_ws/install/robot_nav/share/ament_index/resource_index/packages\n'}
+[2.756371] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/package.xml -> /workspaces/rmf_ws/install/robot_nav/share/robot_nav\n'}
+[2.756433] (robot_nav) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/robot_nav/share/robot_nav/launch\n'}
+[2.756501] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/launch/dual_ekf_navsat.launch.py -> /workspaces/rmf_ws/install/robot_nav/share/robot_nav/launch\n'}
+[2.756564] (robot_nav) StdoutLine: {'line': b'creating /workspaces/rmf_ws/install/robot_nav/share/robot_nav/config\n'}
+[2.756631] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/config/nav2_no_map_params.yaml -> /workspaces/rmf_ws/install/robot_nav/share/robot_nav/config\n'}
+[2.756694] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/config/params.yaml -> /workspaces/rmf_ws/install/robot_nav/share/robot_nav/config\n'}
+[2.756803] (robot_nav) StdoutLine: {'line': b'symbolically linking /workspaces/rmf_ws/build/robot_nav/config/mapper_params_online_async.yaml -> /workspaces/rmf_ws/install/robot_nav/share/robot_nav/config\n'}
+[2.790551] (robot_nav) CommandEnded: {'returncode': 0}
+[2.796301] (robot_nav) JobEnded: {'identifier': 'robot_nav', 'rc': 0}
+[2.796774] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[0.601s] Invoking command in '/workspaces/rmf_ws/build/mr_robot_description': PYTHONPATH=/workspaces/rmf_ws/build/mr_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/rmf_ws/build/mr_robot_description/build --no-deps symlink_data
+[0.783s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.783s]   warnings.warn(
+[0.806s] running develop
+[0.936s] running egg_info
+[0.936s] creating mr_robot_description.egg-info
+[0.936s] writing mr_robot_description.egg-info/PKG-INFO
+[0.937s] writing dependency_links to mr_robot_description.egg-info/dependency_links.txt
+[0.937s] writing entry points to mr_robot_description.egg-info/entry_points.txt
+[0.937s] writing requirements to mr_robot_description.egg-info/requires.txt
+[0.937s] writing top-level names to mr_robot_description.egg-info/top_level.txt
+[0.937s] writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+[0.938s] reading manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+[0.939s] writing manifest file 'mr_robot_description.egg-info/SOURCES.txt'
+[0.942s] running build_ext
+[0.942s] Creating /workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages/mr-robot-description.egg-link (link to .)
+[0.943s] 
+[0.943s] Installed /workspaces/rmf_ws/build/mr_robot_description
+[0.943s] running symlink_data
+[0.943s] creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index
+[0.943s] creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index
+[0.943s] creating /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages
+[0.943s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/resource/mr_robot_description -> /workspaces/rmf_ws/install/mr_robot_description/share/ament_index/resource_index/packages
+[0.943s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/package.xml -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description
+[0.943s] creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch
+[0.943s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/launch/display.launch.py -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/launch
+[0.943s] creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+[0.943s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.trans -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+[0.943s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/materials.xacro -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/urdf/mr_robot.gazebo -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/urdf
+[0.944s] creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/left_wheel_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/Lidar_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/imu_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/base_link.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/right_wheel__1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/meshes/gps_1.stl -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/meshes
+[0.944s] creating /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config
+[0.944s] symbolically linking /workspaces/rmf_ws/build/mr_robot_description/config/display.rviz -> /workspaces/rmf_ws/install/mr_robot_description/share/mr_robot_description/config
+[0.972s] Invoked command in '/workspaces/rmf_ws/build/mr_robot_description' returned '0': PYTHONPATH=/workspaces/rmf_ws/build/mr_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/rmf_ws/install/mr_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/rmf_ws/build/mr_robot_description/build --no-deps symlink_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+config/bridge.yaml
+launch/gazebo.launch.py
+mr_robot_gazebo/__init__.py
+mr_robot_gazebo.egg-info/PKG-INFO
+mr_robot_gazebo.egg-info/SOURCES.txt
+mr_robot_gazebo.egg-info/dependency_links.txt
+mr_robot_gazebo.egg-info/entry_points.txt
+mr_robot_gazebo.egg-info/requires.txt
+mr_robot_gazebo.egg-info/top_level.txt
+mr_robot_gazebo.egg-info/zip-safe
+resource/mr_robot_gazebo
+world/sample.sdf
+world/world.sdf
