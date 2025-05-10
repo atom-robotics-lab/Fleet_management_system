@@ -43,19 +43,6 @@ RUN apt-get update \
   net-tools \
   && rm -rf /var/lib/apt/lists/* 
 
-RUN apt update && apt install -y \
-  wget gnupg software-properties-common apt-transport-https \
-  libx11-xcb1 libxkbfile1 libsecret-1-0 libgtk-3-0 libasound2 \
-  libnss3 libxss1 libgconf-2-4 libx11-dev libxkbfile-dev libxcomposite-dev
-
-# Add Microsoft GPG key and repo
-RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && \
-  install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/ && \
-  sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
-# Install VS Code
-RUN apt update && apt install -y code
-
 RUN pip install \
   flask==3.1.0 \
   fastapi==0.115.12 \
