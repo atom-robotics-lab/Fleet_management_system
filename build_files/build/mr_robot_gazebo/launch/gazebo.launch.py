@@ -1,1 +1,1 @@
-/workspaces/rmf_ws/src/nav/mr_robot_gazebo/launch/gazebo.launch.py
+/workspace/nav_ws/src/nav/mr_robot_gazebo/launch/gazebo.launch.py

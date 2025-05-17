@@ -24,11 +24,11 @@ else
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -v $HOME/.Xauthority:/home/admin/.Xauthority:rw \
         --device /dev/dri:/dev/dri \
-        -v $PWD/build_files:/workspaces/rmf_ws/ \
-        -v $PWD:/workspaces/rmf_ws/src \
+        -v $PWD/build_files:/workspace/nav_ws/ \
+        -v $PWD:/workspace/nav_ws/src \
         -v /var/run/docker.sock:/var/run/docker.sock \
         --name "$container_name" \
-        --workdir /workspaces/rmf_ws \
+        --workdir /workspace/nav_ws \
         -v $PWD/ddsconfig.xml:/ddsconfig.xml \
         --env CYCLONEDDS_URI=/ddsconfig.xml \
         --runtime nvidia \
@@ -42,11 +42,11 @@ else
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -v $HOME/.Xauthority:/home/admin/.Xauthority:rw \
         --device /dev/dri:/dev/dri \
-        -v $PWD/build_files:/workspaces/rmf_ws/ \
-        -v $PWD:/workspaces/rmf_ws/src \
+        -v $PWD/build_files:/workspace/nav_ws/ \
+        -v $PWD:/workspace/nav_ws/src \
         -v /var/run/docker.sock:/var/run/docker.sock \
         --name "$container_name" \
-        --workdir /workspaces/rmf_ws \
+        --workdir /workspace/nav_ws \
         -v $PWD/ddsconfig.xml:/ddsconfig.xml \
         --env CYCLONEDDS_URI=/ddsconfig.xml \
         --network host \

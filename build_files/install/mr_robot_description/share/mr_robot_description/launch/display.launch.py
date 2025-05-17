@@ -1,1 +1,1 @@
-/workspaces/rmf_ws/build/mr_robot_description/launch/display.launch.py
+/workspace/nav_ws/build/mr_robot_description/launch/display.launch.py

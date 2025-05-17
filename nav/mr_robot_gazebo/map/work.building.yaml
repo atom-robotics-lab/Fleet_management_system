@@ -1,0 +1,59 @@
+coordinate_system: reference_image
+crowd_sim:
+  agent_groups:
+    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    elevation: 0
+    lanes:
+      - [8, 9, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 4], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [9, 10, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 4], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [10, 11, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 4], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      floor:
+        color: [1, 0, 0, 0.5]
+        filename: src/nav/mr_robot_gazebo/map/map_save.png
+        transform:
+          scale: 0.024
+          translation_x: 0
+          translation_y: 0
+          yaw: 0
+        visible: true
+    measurements:
+      - [2, 5, {distance: [3, 280]}]
+      - [6, 7, {distance: [3, 415]}]
+    models:
+    vertices:
+      - [278.41399999999999, 3797.6239999999998, 0, ""]
+      - [-2423.2399999999998, -236.84700000000001, 0, ""]
+      - [0.95999999999999996, 1.0669999999999999, 0, ""]
+      - [1.4510000000000001, 198.56100000000001, 0, ""]
+      - [132.786, 198.56100000000001, 0, ""]
+      - [133.03200000000001, 1.8049999999999999, 0, ""]
+      - [7.3540000000000001, 1.0669999999999999, 0, ""]
+      - [6.6159999999999997, 198.06999999999999, 0, ""]
+      - [30.472999999999999, 15.824, 0, ""]
+      - [31.949000000000002, 137.81299999999999, 0, ""]
+      - [76.465000000000003, 140.02600000000001, 0, ""]
+      - [75.972999999999999, 81.491, 0, ""]
+    walls:
+      - [2, 3, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [3, 4, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [5, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+    x_meters: 10
+    y_meters: 10
+lifts: {}
+name: work

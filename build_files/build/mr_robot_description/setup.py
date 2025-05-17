@@ -1,1 +1,1 @@
-/workspaces/rmf_ws/src/nav/mr_robot_description/setup.py
+/workspace/nav_ws/src/nav/mr_robot_description/setup.py

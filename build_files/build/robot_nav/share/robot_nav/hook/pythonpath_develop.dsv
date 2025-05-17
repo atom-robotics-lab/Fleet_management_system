@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/workspaces/rmf_ws/build/robot_nav
+prepend-non-duplicate;PYTHONPATH;/workspace/nav_ws/build/robot_nav

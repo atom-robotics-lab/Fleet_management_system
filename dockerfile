@@ -41,6 +41,9 @@ RUN apt-get update \
   python3-yaml \
   python3-requests \
   net-tools \
+  clang \
+  clang-tools \
+  libstdc++-12-dev \
   && rm -rf /var/lib/apt/lists/* 
 
 RUN pip install \
@@ -71,8 +74,33 @@ RUN if ! colcon mixin list | grep -q 'default'; then \
     colcon mixin add default https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml; \
     fi
 RUN colcon mixin update default
-RUN apt update && apt-get install -y \
-    ros-humble-rmf-dev 
+WORKDIR /workspaces/rmf_ws
+
+# Download RMF repos
+RUN curl -fL https://raw.githubusercontent.com/open-rmf/rmf/humble/rmf.repos -o rmf.repos &&\
+    mkdir -p src && \
+    vcs import src < rmf.repos
+
+# Setup rosdep
+RUN rm -f /etc/ros/rosdep/sources.list.d/20-default.list || true && \
+    rosdep init || true && \
+    rosdep update
+
+# Install dependencies for RMF
+RUN bash -c "source /opt/ros/humble/setup.bash && \
+    rosdep install --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y"
+
+# Set compilers for colcon
+ENV CC=clang
+ENV CXX=clang++
+
+# Build RMF workspace
+RUN bash -c "source /opt/ros/humble/setup.bash && \
+    colcon build --mixin release lld"
+# RUN apt update && apt-get install -y \
+#     ros-humble-rmf-dev 
+RUN echo "source /workspaces/rmf_ws/install/setup.bash" >> ~/.bashrc
+
 SHELL ["/bin/bash", "-c"]
 
 CMD ["/bin/bash"]

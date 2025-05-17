@@ -58,11 +58,11 @@ else
       printf 'Nvidia GPU detected: %s\n' "$gpu"
       docker run -it --rm \
           ${DOCKER_ARGS[@]} \
-          -v $PWD/build_files:/workspaces/rmf_ws/ \
-          -v $PWD:/workspaces/rmf_ws/src \
+          -v $PWD/build_files:/workspace/nav_ws/ \
+          -v $PWD:/workspace/nav_ws/src \
           -v /var/run/docker.sock:/var/run/docker.sock \
           --name "$container_name" \
-          --workdir /workspaces/rmf_ws \
+          --workdir /workspace/nav_ws \
           -v $PWD/ddsconfig.xml:/ddsconfig.xml \
           --env CYCLONEDDS_URI=/ddsconfig.xml \
           --runtime nvidia \
@@ -74,11 +74,11 @@ else
       printf 'Nvidia GPU not found\n'
       docker run -it --rm \
           ${DOCKER_ARGS[@]} \
-          -v $PWD/build_files:/workspaces/rmf_ws/ \
-          -v $PWD:/workspaces/rmf_ws/src \
+          -v $PWD/build_files:/workspace/nav_ws/ \
+          -v $PWD:/workspace/nav_ws/src \
           -v /var/run/docker.sock:/var/run/docker.sock \
           --name "$container_name" \
-          --workdir /workspaces/rmf_ws \
+          --workdir /workspace/nav_ws \
           -v $PWD/ddsconfig.xml:/ddsconfig.xml \
           --env CYCLONEDDS_URI=/ddsconfig.xml \
           --network host \

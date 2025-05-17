@@ -1,1 +1,1 @@
-/workspaces/rmf_ws/build/robot_nav/launch/dual_ekf_navsat.launch.py
+/workspace/nav_ws/build/robot_nav/launch/dual_ekf_navsat.launch.py
