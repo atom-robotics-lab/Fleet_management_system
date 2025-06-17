@@ -35,7 +35,9 @@ def generate_launch_description():
                     '-name', 'mr_robot',
                     '-topic', '/robot_description',
                     "-allow_renaming", "true",
-                    '-z', '0.3'   
+                    '-z', '0.3',
+                    '-y', '-6.0',
+                    '-x', '13.0'   
         ],
         parameters=[
             {'use_sim_time': True}  
@@ -60,7 +62,7 @@ def generate_launch_description():
         ]
     )
 
-    world_path= get_package_share_directory("mr_robot_gazebo")+"/worlds/world.sdf"
+    world_path= get_package_share_directory("mr_robot_gazebo")+"/worlds/demo.world"
 
 
     gazebo=IncludeLaunchDescription(
