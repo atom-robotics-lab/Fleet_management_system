@@ -1,0 +1,19 @@
+<?xml version='1.0' ?>
+<launch>
+  <arg name="use_sim_time" default="false"/>
+  <!-- common launch -->
+   <include file="$(find-pkg-share demo_config)/common.launch.xml">
+     <arg name="use_sim_time" value="$(var use_sim_time)"/>
+     <arg name="viz_config_file" value="$(find-pkg-share demo_config)/include/test/test.rviz"/>
+     <arg name="config_file" value="$(find-pkg-share demo_map)/test/test.building.yaml"/>
+   </include>
+   <!-- Tiny robot fleet adapter -->
+    <group>
+        <include file="$(find-pkg-share demo_fleet_adaptor)/launch/fleet_adapter.launch.xml">
+         <arg name="use_sim_time" value="$(var use_sim_time)" />
+         <arg name="nav_graph_file" value="$(find-pkg-share demo_map)/maps/test/nav_graphs/1.yaml" />
+         <arg name="config_file" value="$(find-pkg-share demo_config)/config/test/tinyRobot_config.yaml" />
+        </include>
+    </group>
+
+</launch>
