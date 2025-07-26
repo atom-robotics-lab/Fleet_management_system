@@ -1,0 +1,36 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="map_package" default="mr_robot_gazebo" description="Name of the map package" />
+  <arg name="use_crowdsim" default='0'/>
+  <arg name="use_tpe" default='0'/>
+  <arg name="ignition_version" default='6'/>
+
+  <let name="world_path" value="$(find-pkg-share $(var map_package))/worlds/rmf.world" />
+  <let name="tpe_engine" value="\-\-physics-engine ignition-physics-tpe-plugin" />
+  <let name="tpe_engine" unless="$(var use_tpe)" value="" />
+
+  <!-- Use crowd sim if `use_crowdsim` is true-->
+  <let name="menge_resource_path" if="$(var use_crowdsim)" value="$(find-pkg-share $(var map_package))/maps/$(var map_name)/config_resource"/>
+  <let name="menge_resource_path" unless="$(var use_crowdsim)" value="" />
+
+  <let name="ign_headless" if="$(var headless)" value="-s"/>
+  <let name="ign_headless" unless="$(var headless)" value="" />
+
+  <group unless="$(var use_tpe)">
+    <executable cmd="ign gazebo --force-version $(var ignition_version) $(var ign_headless) $(var tpe_engine) -r -v 4 $(var world_path)" output="both">
+      <env name="MENGE_RESOURCE_PATH" value="$(var menge_resource_path)"/>
+    </executable>
+  </group>
+
+  <group if ="$(var use_tpe)">
+    <executable cmd="ign gazebo $(var ign_headless) --physics-engine ignition-physics-tpe-plugin -r -v 4 $(var world_path)" output="both">
+      <env name="MENGE_RESOURCE_PATH" value="$(var menge_resource_path)"/>
+    </executable>
+  </group>
+
+  <node pkg="ros_ign_bridge" exec="parameter_bridge"
+    args="/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock"
+    />
+
+</launch>

@@ -12,7 +12,6 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 def generate_launch_description():
     xacro_file=get_package_share_directory('mr_robot_description')+'/urdf/mr_robot.xacro'
     bridge_config=get_package_share_directory('mr_robot_gazebo')+ '/config/bridge.yaml'
-    rviz_config=get_package_share_directory("mr_robot_description")+"/config/display.rviz"
     
     robot_state_publisher=Node(
         package = 'robot_state_publisher',
@@ -32,12 +31,13 @@ def generate_launch_description():
         executable='create',
         output='screen',
         arguments=[
-                    '-name', 'mr_robot',
+                    '-name', 'tinyBot_1',
                     '-topic', '/robot_description',
                     "-allow_renaming", "true",
-                    '-z', '0.3',
-                    '-y', '-6.0',
-                    '-x', '13.0'   
+                    '-z', '0.0',
+                    '-y', '-1.4226328173048066',
+                    '-x', '1.4636949791993532',
+                    '-Y', '0.006154786001831508'  
         ],
         parameters=[
             {'use_sim_time': True}  
@@ -51,16 +51,7 @@ def generate_launch_description():
                     {'config_file': bridge_config}],
                 )
     
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz',
-    	output='screen',
-        arguments=['-d' + rviz_config],
-        parameters=[
-            {'use_sim_time': True}  
-        ]
-    )
+
 
     world_path= get_package_share_directory("mr_robot_gazebo")+"/worlds/rmf.world"
 
@@ -78,5 +69,4 @@ def generate_launch_description():
         gazebo,
         robot_spawn,
         ros_gz_bridge,
-        rviz,
     ])

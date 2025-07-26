@@ -1,0 +1,158 @@
+building_name: floor
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: null1, speed_limit: 2}
+    - - 1
+      - 0
+      - {door_name: null1, speed_limit: 2}
+    - - 1
+      - 2
+      - {speed_limit: 2}
+    - - 2
+      - 1
+      - {speed_limit: 2}
+    - - 3
+      - 4
+      - {door_name: null2, speed_limit: 2}
+    - - 4
+      - 3
+      - {door_name: null2, speed_limit: 2}
+    - - 4
+      - 5
+      - {speed_limit: 2}
+    - - 5
+      - 4
+      - {speed_limit: 2}
+    - - 3
+      - 6
+      - {speed_limit: 2}
+    - - 6
+      - 3
+      - {speed_limit: 2}
+    - - 6
+      - 7
+      - {speed_limit: 2}
+    - - 7
+      - 6
+      - {speed_limit: 2}
+    - - 2
+      - 3
+      - {speed_limit: 2}
+    - - 3
+      - 2
+      - {speed_limit: 2}
+    - - 3
+      - 8
+      - {speed_limit: 2}
+    - - 8
+      - 3
+      - {speed_limit: 2}
+    vertices:
+    - - 1.4636949791993532
+      - -1.4226328173048066
+      - {is_charger: true, name: w1, spawn_robot_name: tinyBot_1, spawn_robot_type: TinyRobot}
+    - - 7.283882163254876
+      - -1.3868103583603455
+      - {name: w2}
+    - - 7.301793392727107
+      - -5.559431762753826
+      - {name: w3}
+    - - 13.354826559921626
+      - -5.541520533281595
+      - {name: w4}
+    - - 13.336915330449395
+      - -2.2822114329019723
+      - {name: w7}
+    - - 18.978043686139245
+      - -2.2643002034297415
+      - {is_charger: true, name: w8, spawn_robot_name: tinyBot_2, spawn_robot_type: TinyRobot}
+    - - 13.372737789393856
+      - -8.962030698911294
+      - {name: w5}
+    - - 15.19936239742157
+      - -8.962030698911294
+      - {lift: lift, name: w6}
+    - - 18.76310893247248
+      - -5.523609303809365
+      - {is_charger: true, name: w9}
+  L2:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: null3, speed_limit: 2}
+    - - 1
+      - 0
+      - {door_name: null3, speed_limit: 2}
+    - - 1
+      - 2
+      - {speed_limit: 2}
+    - - 2
+      - 1
+      - {speed_limit: 2}
+    - - 3
+      - 4
+      - {door_name: null4, speed_limit: 0}
+    - - 4
+      - 3
+      - {door_name: null4, speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 2}
+    - - 5
+      - 4
+      - {speed_limit: 2}
+    - - 3
+      - 6
+      - {speed_limit: 2}
+    - - 6
+      - 3
+      - {speed_limit: 2}
+    - - 6
+      - 7
+      - {speed_limit: 2}
+    - - 7
+      - 6
+      - {speed_limit: 2}
+    - - 2
+      - 3
+      - {speed_limit: 2}
+    - - 3
+      - 2
+      - {speed_limit: 2}
+    - - 3
+      - 8
+      - {speed_limit: 2}
+    - - 8
+      - 3
+      - {speed_limit: 2}
+    vertices:
+    - - 1.4920371230355935
+      - -1.3825209670622884
+      - {name: w15}
+    - - 7.2935912050489025
+      - -1.3685034130625948
+      - {name: w14}
+    - - 7.295895069865377
+      - -5.527737374841072
+      - {name: w13}
+    - - 13.329477599350676
+      - -5.5324410168105125
+      - {name: w12}
+    - - 13.323770202236306
+      - -2.28357447708401
+      - {name: w17}
+    - - 18.946776065084883
+      - -2.2867431224006585
+      - {name: w18}
+    - - 13.334584267634808
+      - -8.941988845466106
+      - {is_charger: true, name: w11}
+    - - 15.155319111738756
+      - -8.9487959100619
+      - {lift: lift, name: w10}
+    - - 18.72038826707946
+      - -5.534741942705704
+      - {name: w16}

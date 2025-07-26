@@ -1,0 +1,23 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="use_sim_time" default="false"/>
+
+  <!-- Common launch -->
+  <include file="$(find-pkg-share mr_robot_rmf)/launch/common.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share mr_robot_rmf)/config/office.rviz"/>
+    <arg name="config_file" value="$(find-pkg-share mr_robot_gazebo)/config/rmf.building.yaml"/>
+    <arg name="dashboard_config_file" value="$(find-pkg-share rmf_demos_dashboard_resources)/office/dashboard_config.json"/>
+  </include>
+
+  <!-- TinyRobot fleet adapter -->
+  <group>
+    <include file="$(find-pkg-share mr_robot_rmf)/launch/fleet_adapter.launch.xml">
+      <arg name="use_sim_time" value="$(var use_sim_time)"/>
+      <arg name="nav_graph_file" value="$(find-pkg-share mr_robot_gazebo)/config/nav_graph.yaml" />
+      <arg name="config_file" value="$(find-pkg-share mr_robot_gazebo)/config/tinyRobot_config.yaml"/>
+    </include>
+  </group>
+
+</launch>

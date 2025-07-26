@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(mr_robot_gazebo)
+project(mr_robot_rmf)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -12,23 +12,8 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY launch worlds config models scripts
+  DIRECTORY launch config models
   DESTINATION share/${PROJECT_NAME}
-)
-
-install(PROGRAMS
-  scripts/request_loop.py
-  scripts/request_lift.py
-  scripts/cancel_task.py
-  scripts/dispatch_loop.py
-  scripts/dispatch_action.py
-  scripts/dispatch_patrol.py
-  scripts/dispatch_delivery.py
-  scripts/dispatch_clean.py
-  scripts/dispatch_go_to_place.py
-  scripts/mock_docker.py
-  scripts/teleop_robot.py
-  DESTINATION lib/${PROJECT_NAME}
 )
 
 if(BUILD_TESTING)
